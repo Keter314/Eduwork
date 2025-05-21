@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-spacing: 0;
+        }
+        .navbar {
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        .navbar td {
+            padding: 10px;
+        }
+        .header, .about, .portfolio {
+            text-align: center;
+            padding: 20px;
+        }
+        .biodata-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 33.33%;
+        }
+        .portfolio-table td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 33.33%;
+        }
+        .image-placeholder {
+            background-color: #ddd;
+            text-align: center;
+            padding: 60px 0;
+            font-size: 24px;
+            color: #666;
+        }
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Section 1: Menu -->
+<table class="navbar">
+    <tr>
+        <td><strong>Brand</strong></td>
+        <td style="text-align:right;">
+            Header | Biodata | Portofolio
+        </td>
+    </tr>
+</table>
+
+<!-- Section 2: Header - Judul Kiri, Gambar Kanan -->
+<table>
+    <tr>
+        <td style="width: 50%; padding: 20px;">
+            <h3>Selamat Datang di Website Saya</h3>
+            <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+            <button>Pelajari Lebih Lanjut</button>
+        </td>
+        <td style="width: 50%; padding: 20px;">
+            <div class="image-placeholder">600 x 400</div>
+        </td>
+    </tr>
+</table>
+
+<!-- Section 3: Biodata -->
+<div class="about">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+</div>
+<table class="biodata-table">
+    <tr>
+        <td>Full Name</td>
+        <td>Education</td>
+        <td>Pekerjaan</td>
+    </tr>
+    <tr>
+        <td>Contact</td>
+        <td>Hobi</td>
+        <td>Alamat</td>
+    </tr>
+</table>
+
+<!-- Section 4: Portofolio -->
+<div class="portfolio">
+    <h2>Portofolio</h2>
+</div>
+<table class="portfolio-table">
+    <tr>
+        <td>
+            <div class="image-placeholder">350 x 200</div>
+            <strong>Proyek 1</strong><br>
+            Deskripsi proyek 1.
+        </td>
+        <td>
+            <div class="image-placeholder">350 x 200</div>
+            <strong>Proyek 2</strong><br>
+            Deskripsi proyek 2.
+        </td>
+        <td>
+            <div class="image-placeholder">350 x 200</div>
+            <strong>Proyek 3</strong><br>
+            Deskripsi proyek 3.
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
